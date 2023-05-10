@@ -2,41 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>OnePager mit Platzhaltertext</title>
+  <title>Farbenfroher OnePager mit Otter-Bild</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       font-size: 16px;
       line-height: 1.5;
+      background-color: #F7F9FA;
     }
     .wrapper {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-color: #f2f2f2;
+      background-color: #FFF;
     }
     .content {
       text-align: center;
     }
     .title {
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin-bottom: 1.5rem;
+        font-size: 3.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        color: #444;
     }
     .subtitle {
-      font-size: 1.5rem;
-      margin-bottom: 3rem;
-      color: gray;
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+        color: #666;
+    }
+    img {
+        max-width: 100%;
     }
   </style>
 </head>
 <body>
   <div class="wrapper">
     <div class="content">
-      <h1 class="title">Willkommen auf meinem OnePager!</h1>
+      <h1 class="title">Herzlich Willkommen!</h1>
       <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <p><!-- Hier steht der Platzhaltertext --></p>
+      <img src="https://images.unsplash.com/photo-1534296912213-19a70f9d0583?auto=format&fit=crop&w=1050&q=80" alt="Ein Otter schwimmt im Wasser">
+      <p class="subtitle">Hier kann weiterer Inhalt hinzugefügt werden.</p>
     </div>
   </div>
 </body>
